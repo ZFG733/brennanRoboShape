@@ -4,7 +4,8 @@ public class brennanShapesRunner
 {
 	public static void main (String[] args)
 	{
-		System.out.println("Brennan");
+		brennanShapeController controller = new brennanShapeController();
+		controller.start();
 	}
 	
 }
